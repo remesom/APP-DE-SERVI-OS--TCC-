@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anunciar Serviço</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar Página separada para anunciar serviços -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Serviços+</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="buscar-profissionais.html">Buscar Profissionais</a></li>
+        <li><a href="anunciar-servico.html">Anunciar Serviço</a></li>
+        <li><a href="perfil.html">Perfil</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Announcement Section -->
+  <main>
+    <section class="announce-service">
+      <h2>Anunciar um Serviço</h2>
+      <form id="service-form">
+        <div class="form-group">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" placeholder="Ex: João Silva" required>
+        </div>
+        <div class="form-group">
+          <label for="service">Serviço:</label>
+          <input type="text" id="service" name="service" placeholder="Ex: Eletricista" required>
+        </div>
+        <div class="form-group">
+          <label for="description">Descrição:</label>
+          <textarea id="description" name="description" placeholder="Descreva seu serviço" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="location">Localização:</label>
+          <input type="text" id="location" name="location" placeholder="Ex: Santo Antônio do Descoberto" required>
+        </div>
+        <button type="submit" class="cta-button">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Serviços+. Todos os direitos reservados.</p>
+    <ul class="footer-links">
+      <li><a href="termos.html">Termos de Serviço</a></li>
+      <li><a href="privacidade.html">Política de Privacidade</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
